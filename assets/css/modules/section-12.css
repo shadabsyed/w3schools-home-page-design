@@ -1,0 +1,67 @@
+.cont12 {
+  background-color: #282a35;
+  color: white;
+  text-align: center;
+  padding-top: 78px;
+  padding-bottom: 96px;
+}
+
+.cont12 h1 {
+  font-size: 52px;
+  font-weight: 700;
+  padding-top: 11px;
+  padding-bottom: 20px;
+  margin-top: 2px;
+  margin-bottom: -20px;
+  line-height: 55px;
+}
+
+.cont12__sub-heading {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 37.5px;
+  margin-top: 19px;
+  margin-bottom: 40px;
+  color: #ffc0c7;
+}
+
+.cont12__list-container {
+  width: fit-content;
+  margin: auto;
+}
+
+.cont12__list-item {
+  line-height: 36px;
+  display: flex;
+}
+
+.cont12__list-item img {
+  margin-right: 1rem;
+}
+
+.cont12__list-item p {
+  margin: 0;
+  font-size: 20px;
+}
+.cont12__list-item span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cont12__list-item span:hover {
+  color: #04aa6d;
+}
+.cont12 button {
+  width: 300px;
+  padding: 11px 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  line-height: 30px;
+  margin-top: 35px;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+}
+.cont12 button:hover {
+  background-color: #059862;
+}
