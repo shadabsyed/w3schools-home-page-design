@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Freckle Face";
+  src: url("./FreckleFace-Regular.ttf");
+}
+.cont13__sub-cont2 :is(h1, p) {
+  font-family: "Freckle Face";
+}
+.cont13__sub-cont {
+  padding-top: 78px;
+  padding-bottom: 95px;
+  text-align: center;
+}
+.cont13__sub-cont1 {
+  background-color: #f3ecea;
+}
+.cont13__sub-cont1 h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 97.5px;
+  margin-top: 2px;
+  margin-bottom: -20px;
+}
+.cont13__sub-cont1 p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.cont13__sub-cont2 {
+  background-color: #96d4d4;
+  font-family: cursive;
+}
+.cont13__sub-cont2 h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: -20px;
+  line-height: 72px;
+}
+.cont13__sub-cont2 p {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  margin: 10px 0 10px 0;
+}
+.cont13__sub-cont img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.cont13 img:hover {
+  opacity: 0.7;
+}
+.cont13__sub-cont2 button {
+  width: 200px;
+  padding: 11px 18px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: #282a35;
+  color: white;
+  cursor: pointer;
+}
+.cont13__sub-cont2 button:hover {
+  background-color: black;
+}
