@@ -1,0 +1,41 @@
+.cont15 {
+  background-color: #e7e9eb;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 90px;
+}
+.cont15 h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 97.5px;
+  margin-top: 2px;
+  margin-bottom: -20px;
+}
+.cont15 p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cont15 img {
+  width: 980px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cont15 button {
+  width: 650px;
+  padding: 16px;
+  margin: 40px 0 16px 0;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: #282a35;
+  color: white;
+  cursor: pointer;
+}
+.cont15 button:hover {
+  background-color: black;
+}

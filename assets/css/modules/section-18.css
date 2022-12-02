@@ -1,0 +1,88 @@
+.cont18 {
+  background-color: #282a35;
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.cont18__row-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.cont18__col-1,
+.cont18__col-2 {
+  display: flex;
+  list-style-type: none;
+}
+.cont18__col-1 {
+  margin-left: -100px;
+}
+.cont18__col-2 {
+  margin-right: -50px;
+  margin-top: 30px;
+}
+.cont18__col-1 li {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-right: 12px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.cont18__col-1 li:hover {
+  opacity: 0.9;
+}
+.cont18__col-2 li:hover {
+  color: #4caf50;
+  cursor: pointer;
+}
+.cont18__row-2 {
+  display: flex;
+  justify-content: right;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+.cont18__row-2 i {
+  font-size: 20px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.cont18__row-2 i:hover {
+  background-color: #fff;
+  color: #000;
+}
+.cont18__row-2__col-1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.cont18__row-2__col-1 p {
+  font-size: 15px;
+  line-height: 10px;
+}
+.cont18__row-2__col-1 span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cont18__row-2__col-1 span:hover {
+  color: #4caf50;
+}
+.cont18__row-2__col-2 {
+  display: flex;
+  justify-content: center;
+}
+.cont18__row-2__col-2 i {
+  font-size: 35px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.cont18__row-2__col-2 i:hover {
+  opacity: 0.6;
+}

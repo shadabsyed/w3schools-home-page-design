@@ -1,0 +1,53 @@
+.cont16 {
+  position: relative;
+  background-color: #282a35;
+  color: #ffc0c7;
+  padding-top: 10px;
+  padding-bottom: 64px;
+}
+.cont16 h2 {
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 63px;
+  margin: 62px 0 62px 60px;
+}
+.cont16 p {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 78px;
+  margin: 52px 0 52px 60px;
+}
+.cont16 button {
+  width: 200px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 16px 60px;
+  padding: 17px 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+}
+.cont16 button:hover {
+  background-color: #059862;
+}
+.cont16__item {
+  text-align: right;
+}
+.cont16__item-1 {
+  position: absolute;
+  right: 240px;
+  width: 220px;
+  transform: rotate(10deg);
+  bottom: 0;
+  z-index: 1;
+}
+
+.cont16__item-2 {
+  position: absolute;
+  right: 5%;
+  width: 220px;
+  transform: rotate(10deg);
+  bottom: -15%;
+}
